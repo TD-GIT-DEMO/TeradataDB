@@ -1,0 +1,2 @@
+# TeradataDB
+Teradata DDLs
