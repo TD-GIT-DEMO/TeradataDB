@@ -7,8 +7,9 @@ int main(void)
 	printf ("y is %i\n" , y);
 
 	//swapping....
-	
-	printf ("x is now %i\n" , x);
+	int temp = x; x = y; y = temp;
+
+printf ("x is now %i\n" , x);
 	printf ("y is now %i\n", y);
 
 }
