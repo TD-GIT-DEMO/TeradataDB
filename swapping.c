@@ -1,30 +1,19 @@
 #include <stdio.h>
-
-#int main( )
-
+ 
+int main()
 {
-	
-int x = 28;
-	
-int y = 50;
-	
-printf("x is %i\n" , x);
-	
-printf("y is %i\n" , y);
-
-	
-//swapping....
-	
-int temp = x; 
-x = y; 
-y = temp;
-
-
-printf("x is now %i\n" , x);
-	
-printf("y is now %i\n", y);
-
-
-
+   int x, y, temp;
+ 
+   printf("Enter the value of x and y\n");
+   scanf("%d%d", &x, &y);
+ 
+   printf("Before Swapping\nx = %d\ny = %d\n",x,y);
+ 
+   temp = x;
+   x    = y;
+   y    = temp;
+ 
+   printf("After Swapping\nx = %d\ny = %d\n",x,y);
+ 
+   return 0;
 }
-
